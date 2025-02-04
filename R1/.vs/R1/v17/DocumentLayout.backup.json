@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alex.alyeksyeyenko\\source\\repos\\R1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79293DED-39FE-4582-95EF-FDAB1F6A04FF}|R1\\R1.csproj|c:\\users\\alex.alyeksyeyenko\\source\\repos\\r1\\r1\\models\\requestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79293DED-39FE-4582-95EF-FDAB1F6A04FF}|R1\\R1.csproj|solutionrelative:r1\\models\\requestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79293DED-39FE-4582-95EF-FDAB1F6A04FF}|R1\\R1.csproj|c:\\users\\alex.alyeksyeyenko\\source\\repos\\r1\\r1\\controllers\\r1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79293DED-39FE-4582-95EF-FDAB1F6A04FF}|R1\\R1.csproj|solutionrelative:r1\\controllers\\r1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79293DED-39FE-4582-95EF-FDAB1F6A04FF}|R1\\R1.csproj|c:\\users\\alex.alyeksyeyenko\\source\\repos\\r1\\r1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79293DED-39FE-4582-95EF-FDAB1F6A04FF}|R1\\R1.csproj|solutionrelative:r1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alex.alyeksyeyenko\\Downloads\\response_1738668932880.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alex.alyeksyeyenko\\Downloads\\response_1738681551328.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "R1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\alex.alyeksyeyenko\\source\\repos\\R1\\R1\\Controllers\\R1Controller.cs",
+              "RelativeDocumentMoniker": "R1\\Controllers\\R1Controller.cs",
+              "ToolTip": "C:\\Users\\alex.alyeksyeyenko\\source\\repos\\R1\\R1\\Controllers\\R1Controller.cs*",
+              "RelativeToolTip": "R1\\Controllers\\R1Controller.cs*",
+              "ViewState": "AgIAADkAAAAAAAAAAAAywFkAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:32:52.742Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "response_1738681551328.json",
+              "DocumentMoniker": "C:\\Users\\alex.alyeksyeyenko\\Downloads\\response_1738681551328.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\response_1738681551328.json",
+              "ToolTip": "C:\\Users\\alex.alyeksyeyenko\\Downloads\\response_1738681551328.json",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\response_1738681551328.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMBgEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-04T15:14:42.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "response_1738668932880.json",
+              "DocumentMoniker": "C:\\Users\\alex.alyeksyeyenko\\Downloads\\response_1738668932880.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\response_1738668932880.json",
+              "ToolTip": "C:\\Users\\alex.alyeksyeyenko\\Downloads\\response_1738668932880.json",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\response_1738668932880.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABVBQEAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-04T11:36:13.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alex.alyeksyeyenko\\source\\repos\\R1\\R1\\Program.cs",
+              "RelativeDocumentMoniker": "R1\\Program.cs",
+              "ToolTip": "C:\\Users\\alex.alyeksyeyenko\\source\\repos\\R1\\R1\\Program.cs",
+              "RelativeToolTip": "R1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:23:02.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\alex.alyeksyeyenko\\source\\repos\\R1\\R1\\Models\\RequestModel.cs",
+              "RelativeDocumentMoniker": "R1\\Models\\RequestModel.cs",
+              "ToolTip": "C:\\Users\\alex.alyeksyeyenko\\source\\repos\\R1\\R1\\Models\\RequestModel.cs*",
+              "RelativeToolTip": "R1\\Models\\RequestModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T12:35:02.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
