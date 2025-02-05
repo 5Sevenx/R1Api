@@ -1,0 +1,47 @@
+# Visual Studio related
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+Backup*/
+_ReSharper*/
+*.resharper
+TestResults/
+
+# Angular related
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment files
+*.env
+*.env.local
+*.env.development
+*.env.production
+
+# Logs
+*.log
+logs/
+*.trace
+
+# IDE specific
+.idea/
+.vscode/
+.DS_Store
+*.swp
+Thumbs.db
+
+# Build output
+out/
+build/
+
+# Temp files
+*.tmp
+*.temp
+*.pid

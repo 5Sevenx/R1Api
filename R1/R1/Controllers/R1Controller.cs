@@ -58,7 +58,12 @@ namespace cashreg.Controllers
             //save result
             var results = new List<object>();
 
+           //save vector
             var vectors = new List<double[]>();
+
+
+            //save simlarity results
+            var similarity = new List<List<double>>();
 
             //list per each element 
             foreach (var post in document.RootElement.EnumerateArray())
@@ -82,19 +87,71 @@ namespace cashreg.Controllers
 
                 if(postresponse.IsSuccessStatusCode)
                 {
-                    //5119 embendings each
+                    //5119 == 5120 final embendings,each
                     var resultJson = await postresponse.Content.ReadAsStringAsync();
                   
                     results.Add(resultJson);
 
                     var embendResponse = JsonSerializer.Deserialize<EmbendResponse>(resultJson);
 
-         
-                        vectors.Add(embendResponse.embeddings[0].ToArray());
-
+                    vectors.Add(embendResponse.embeddings[0].ToArray());
                 }
             }
-            return Ok(results);
+            //test cos calculation
+            //if(vectors .Count >= 2)
+            //{
+            //    double[] a = vectors[0];
+            //    double[] b = vectors[1];
+
+            //    //scale
+            //    double dotproduct = a.Zip(b ,(x, y) => x * y).Sum();
+
+            //    //vectors
+            //    double normA = Math.Sqrt(a.Sum(x => x * x));
+            //    double normB = Math.Sqrt(b.Sum(x => x * x));
+
+            //    //sum vectors
+            //    double vectorsum = normA * normB;
+
+            //    double _similarity = dotproduct / vectorsum;
+
+            //    similarity.Add(_similarity);
+            //}
+
+            for(int i = 0; i < vectors.Count; i++) {
+
+                //list for each pair 
+                var pairSimilarity = new List<double>();
+
+                //set j+1 just to not compare the same vector
+                for(int j = i + 1; j < vectors.Count; j++)
+                {
+                    //set vectors to compare with a 
+                    double[] a = vectors[i];
+                    double[] b = vectors[j];
+
+                    //scale 
+                    double dotproduct = a.Zip(b,(x,y) => x*y).Sum();
+
+                    //vectors
+                    double nomrA = Math.Sqrt(a.Sum(x => x *x));
+                    double normB = Math.Sqrt(b.Sum(x => x * x));
+
+                    //sum vectors
+                    double vectorsum = nomrA * normB;
+
+                    //get similarity
+                    double _similarity = dotproduct / vectorsum;
+
+                    //add it to pair list
+                    pairSimilarity.Add(_similarity);
+                }
+    
+                //add each pair list to not be confused 
+                similarity.Add(pairSimilarity);
+            }
+
+            return Ok(new { results, similarity });
         }
     }
 }
