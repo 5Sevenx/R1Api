@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "cashreg.Controllers.R1Constoller",
+    "Method": "Request",
+    "RelativePath": "api/R1Constoller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "R1",
+        "Type": "R1.Models.RequestModelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "R1.Models.RequestModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "cashreg.Controllers.R1Constoller",
+    "Method": "FromHtmlToText",
+    "RelativePath": "api/R1Constoller/htmltotext",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "R1.Models.EmbendResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
